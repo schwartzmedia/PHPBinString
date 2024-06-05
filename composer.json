@@ -1,22 +1,28 @@
 {
-    "name": "grandt/binstring",
-    "version": "1.0.0",
+    "name": "schwartzmedia/binstring",
+    "version": "1.1.0",
     "type": "library",
     "description": "A class for working around the use of mbstring.func_override",
     "keywords": ["mbstring", "binary strings"],
-    "homepage": "https://github.com/Grandt/PHPBinString",
+    "homepage": "https://github.com/schwartzmedia/PHPBinString",
     "license": "LGPL-2.1",
     "authors": [
         {
             "name": "A. Grandt",
             "email": "php@grandt.com",
             "role": "Developer"
+        },
+        {
+            "name": "Patrick B",
+            "email": "patrickb@schwartzmedia.com.au",
+            "homepage": "https://schwartzmedia.com.au",
+            "role": "Developer"
         }
     ],
     "repositories": [
         {
             "type": "vcs",
-            "url": "git://github.com/Grandt/PHPBinString.git"
+            "url": "git://github.com/schwartzmedia/PHPBinString.git"
         }
     ],
     "require": {

@@ -1,5 +1,10 @@
 # Binary Safe String functions
 
+## What changes after fork
+
+- Fix a deprecated usage of `strlen()`
+
+## Below is original content
 
 If you use PHP's mbstring.func_overload, or the server you are running on has it enabled, you are in trouble. Especially if you are relying on being able to parse binary data and protocols.
 
